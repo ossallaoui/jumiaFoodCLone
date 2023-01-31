@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 import { StyleSheet, Text, View, Button, TouchableOpacity } from 'react-native';
+=======
+import { StyleSheet, Text, View } from 'react-native';
+>>>>>>> 0f17af948a57cff73b26d5de996b7a0efd889b8a
 import { NavigationContainer } from '@react-navigation/native';
 import { createNativeStackNavigator } from '@react-navigation/native-stack';
 import Home from './components/Home';
@@ -35,11 +39,16 @@ const TabNavigator = () => {
             // You can return any component that you like here!
             return <Icon name={iconName} size={size} color={color} />;
           },
+<<<<<<< HEAD
           tabBarActiveTintColor: '#ff5500',
+=======
+          tabBarActiveTintColor: 'tomato',
+>>>>>>> 0f17af948a57cff73b26d5de996b7a0efd889b8a
           tabBarInactiveTintColor: 'gray',
         })}
       >
         <Tab.Screen name="Maison" component={Home} options={{headerShown: false}}/>
+<<<<<<< HEAD
         <Tab.Screen name="Chercher" component={Chercher} options={({  }) => ({
           
           // Add a placeholder button without the `onPress` to avoid flicker
@@ -84,6 +93,11 @@ const TabNavigator = () => {
           
         })}
           />
+=======
+        <Tab.Screen name="Chercher" component={Chercher} options={{headerShown: false}}/>
+        <Tab.Screen name="Commandes" component={Commandes} options={{headerShown: false}}/>
+        <Tab.Screen name="Compte" component={Comptes} options={{headerShown: false}}/>
+>>>>>>> 0f17af948a57cff73b26d5de996b7a0efd889b8a
       </Tab.Navigator>
   )
 }
@@ -116,6 +130,9 @@ const styles = StyleSheet.create({
     flex: 1,
         backgroundColor: '#fff',
         marginTop: Constants.statusBarHeight,
+<<<<<<< HEAD
         marginBottom: 10,
+=======
+>>>>>>> 0f17af948a57cff73b26d5de996b7a0efd889b8a
   },
 });

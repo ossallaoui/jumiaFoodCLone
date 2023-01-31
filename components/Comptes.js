@@ -1,5 +1,6 @@
 import { StyleSheet, Text, View } from 'react-native'
 import React from 'react'
+<<<<<<< HEAD
 import Icon from 'react-native-vector-icons/Entypo'
 
 const Comptes = (navigation) => {
@@ -36,12 +37,20 @@ const Comptes = (navigation) => {
           <Text style={[styles.ListText, {marginLeft: 10}]}>Chat en direct</Text> 
         </View>
       </View>
+=======
+
+const Comptes = () => {
+  return (
+    <View>
+      <Text>Comptes</Text>
+>>>>>>> 0f17af948a57cff73b26d5de996b7a0efd889b8a
     </View>
   )
 }
 
 export default Comptes
 
+<<<<<<< HEAD
 const styles = StyleSheet.create({
   container: {
     flex: 1,
@@ -76,3 +85,6 @@ ListText: {
   fontSize: 18,
 },
 })
+=======
+const styles = StyleSheet.create({})
+>>>>>>> 0f17af948a57cff73b26d5de996b7a0efd889b8a

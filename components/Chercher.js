@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 import { FlatList, StyleSheet, Text, TextInput, View, Image, ImageBackground, ScrollView, TouchableOpacity } from 'react-native'
 import React from 'react'
 import Icon from 'react-native-vector-icons/FontAwesome';
@@ -17,11 +18,22 @@ const Chercher = (navigation) => {
           </View>
       </View>
     </View>  
+=======
+import { StyleSheet, Text, View } from 'react-native'
+import React from 'react'
+
+const Chercher = () => {
+  return (
+    <View>
+      <Text>Chercher</Text>
+    </View>
+>>>>>>> 0f17af948a57cff73b26d5de996b7a0efd889b8a
   )
 }
 
 export default Chercher
 
+<<<<<<< HEAD
 const styles = StyleSheet.create({
   container: {
     flex: 1,
@@ -52,3 +64,6 @@ textInput:{
   fontSize: 15,
 }
 })
+=======
+const styles = StyleSheet.create({})
+>>>>>>> 0f17af948a57cff73b26d5de996b7a0efd889b8a
